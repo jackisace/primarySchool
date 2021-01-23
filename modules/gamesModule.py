@@ -9,6 +9,7 @@ from numberGuess import numberGuess
 
 
 def games():
+    """Games menu, used to redirect the user to the various games"""
     msg = ""
     while True:
         clear(msg)

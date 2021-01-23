@@ -3,6 +3,7 @@ from helpModule import Help
 from random import randint
 
 def highLow():
+    """Higher or Lower game module"""
     score = 0
     while True:
         number = randint(0,100)

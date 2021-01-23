@@ -5,6 +5,8 @@ from random import randint
 operators = ["+", "-"]
 
 def mathsTest():
+    """Maths test module"""
+    
     correct = 0
 
     for i in range(0,10):

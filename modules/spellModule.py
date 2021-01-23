@@ -3,8 +3,8 @@ library = ["humans", "building", "structure", "architecture", "home", "house", "
 vowels = "aeiou"
 
 def spell(line):
-
-
+    """Spell module, used every time the user inputs a line into workbook"""
+    
     for lineWord in line.split(" "):
         if lineWord in library:
             continue

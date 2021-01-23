@@ -3,6 +3,7 @@ from helpModule import Help
 from random import randint
 
 def numberGuess():
+    """Number guess game module"""
     number = randint(0,100)
     guessed = False
     guesses = 0

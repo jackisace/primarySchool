@@ -3,9 +3,10 @@ from clear import clear
 
 
 def word(line):
+    """Word module acts as a thesaurus, is called every time the user inputs a line into the wrkbook module"""
+
     library = [["building", "structure", "architecture", "home", "house", "hut"], ["animal", "beast", "creature", "pet"]]
 
-    finder = line.split(" ")
     for item in library:
         found = False
         for libraryWord in item:

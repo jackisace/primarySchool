@@ -6,6 +6,8 @@ from clear import clear
 
 
 def workbook():
+    """Workbook module, the projects main word processing function. Makes use of wordModule and spellModule. 
+    Calculations are carried out within this module"""
     historyFile = open("history.txt", "r")
     history = historyFile.read()
     historyFile.close

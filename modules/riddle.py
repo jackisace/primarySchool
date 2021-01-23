@@ -5,6 +5,7 @@ from random import randint
 riddles = [["What gets bigger, when you take from it?", "hole"], ["I travel the world, but never leave my corner, what am I?", "stamp"], ["I have holes but I can still hold water, what am I?", "sponge"]]
 
 def riddle():
+    """Riddle of the day module"""
     clear("")
     riddle = riddles[randint(0,2)]
     tries = 0

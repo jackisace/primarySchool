@@ -3,6 +3,7 @@ from clear import clear
 
 
 def Help(strIn):
+    """Help module, called every time the user inputs "help", provides the user with navigation options"""
     clear("")
     print("Help")
     print("====\n")

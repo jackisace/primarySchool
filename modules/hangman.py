@@ -3,6 +3,8 @@ from helpModule import Help
 import random
 
 def hangman():
+    """Hangman game module"""
+    
     words = ["blaze", "skate", "eagle", "chill"]
     word = words[random.randint(0,3)]
 

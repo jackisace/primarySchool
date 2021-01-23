@@ -4,6 +4,7 @@ from helpModule import Help
 allClasses = ["Art", "Science", "Maths", "English", "History", "Drama", "Music", "PE", "Cooking", "IT"]
 
 def undoChanges(undoClasses):
+    """ Used for undoing the changes this session"""
     classesFile = open("classes.txt", "w")
     for eachClass in undoClasses:
             classesFile.write(eachClass)
@@ -12,6 +13,7 @@ def undoChanges(undoClasses):
     return undoClasses
 
 def acceptChanges(currentClasses):
+    """used to accept the changes this session"""
     classesFile = open("classes.txt", "w")
     for eachClass in currentClasses:
             classesFile.write(eachClass)
@@ -22,6 +24,7 @@ def acceptChanges(currentClasses):
 
 
 def classes():
+    """Classes module, for students to see and update the day's classes"""
     classesFile = open("classes.txt", "r")
     currentClasses = classesFile.read().split("\n")
     undoClasses = []
