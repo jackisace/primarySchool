@@ -10,6 +10,8 @@ from mathsTest import mathsTest
 
 
 def main():
+    """Main nmodule, this is the entry point for the project, and also contains the main menu"""
+    
     msg = ""
     while True:
         clear(msg)
